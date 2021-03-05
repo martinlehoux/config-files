@@ -1,0 +1,36 @@
+{
+    "$schema": "https://json.schemastore.org/tsconfig",
+    "compilerOptions": {
+        // Language
+        "allowJs": false,
+        // Compilation
+        "incremental": true,
+        // Modules
+        "baseUrl": "./src",
+        "moduleResolution": "node",
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true,
+        "isolatedModules": true,
+        // Compression
+        "removeComments": true,
+        // Checks
+        "strict": true,
+        "noImplicitAny": true,
+        "noImplicitThis": true,
+        // Linter ?
+        "noFallthroughCasesInSwitch": true,
+        "noImplicitReturns": true,
+        "noUncheckedIndexedAccess": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "allowUnreachableCode": false,
+        // Experimental
+        "emitDecoratorMetadata": true, // ?
+        "experimentalDecorators": true, // ?
+        // Advanced
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "resolveJsonModule": true,
+        "importsNotUsedAsValues": "error"
+    }
+}

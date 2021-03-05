@@ -19,3 +19,8 @@
 ]
 ```
 
+## TSConfig
+
+```json
+"extends": "./tsconfig/base.json"
+```
